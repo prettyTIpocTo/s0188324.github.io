@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Задание 1 by 27/1</title>
+    <link href="https://openedu.kubsu.ru/theme/image.php/boost/theme/1725708672/favicon"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1 id="fragment-page">Задание 1</h1>
+    <ul>
+        <li>Задание 1 и 7</li>
+        <a href="http://kubsu.ru/" id= "Джунгарик" title="Официальный сайт Кубанского государственного университета">Абсолютная гиперссылка на главную страницу сайта kubsu.ru и ссылка с тремя параметрами в URL</a>
+        <li>Задание 2</li>
+        <a href="https://kubsu.ru/" title="Официальный сайт Кубанского государственного университета">Абсолютная на главную сайта kubsu.ru в протоколе https</a>
+        <li>Задание 3(ссылка-изображение)</li>
+        <a href="https://kubsu.ru/" title="Официальный сайт Кубанского государственного университета"> <img src=image.png width="250"></a>
+        <li>Задание 4</li>
+        <a href="Web/Vnutr.html">Сокращенная ссылка на внутреннюю страницу</a>
+        <li>Задание 9</li>
+        <a href="index.html">Относительная на страницу в текущем каталоге</a>
+        <li>Задание 10</li>
+        <a href= "Web/Catalog/about.html" >Относительная на страницу в каталоге about</a>
+        <li> Задание 13(контекстная в тексте абзаца) </li>
+        <a href="https://kubsu.ru">КубГУ</a> лучший университет Юга России
+        <li> Задание 14</li>
+        <a href="https://www.kinopoisk.ru/lists/movies/top250/?utm_referrer=yandex.ru">Ссылка на фрагмент страницы стороннего сайта</a>
+        <li>Задание 15(ссылки из прямоугольных и круглых областей картинки (HTML-тег map))</li>
+            <map name="center">
+                <area shape="rect" coords="30,301,161,428" href="https://kubsu.ru/index.php" alt="Сайт университета">
+                <area shape="circle" coords="524,366,55" href="https://t.me/kubsunews" alt="Канал телеграм">
+            </map>
+            <img usemap="#center" src="kubik.png" alt="Фото главного корпуса">
+        <li>Задание 16</li>
+        <a href="">Ссылка с пустым href</a>
+        <li>Задание 17</li>
+        <a>Ссылка без href</a>
+        <li>Задание 18</li>
+        <a href="https://kubsu.ru" rel="nofollow">Ссылка, по которой запрещен переход поисковиками</a>
+        <li>Задание 19</li>
+        <a href="https://kubsu.ru" rel="noindex">Ссылка, запрещенная для индексации поисковиками</a>
+        <li>Задание 6 и 8</li>
+        <a href= "#Джунгарик" >Вернуться в начало(ссылка на фрагмент текущей страницы и ссылка с параметром id в URL)</a>
+        <li>Задание 20(нумерованный список ссылок с подписями title)</li>
+        <ol>
+            <li><a href="https://kubsu.ru" title="Это сайт КубГУ">Перейти на сайт КубГУ</a></li>
+            <li><a href="https://t.me/kubsunews" title="Это телеграмм КубГУ">Перейти в телеграмм КубГУ</a></li>
+            <li><a href="" title="Что-то еще">...</a></li>
+        </ol>
+         <li>Задание 21</li>
+        <a href="ftp://login:password@example.com/file.txt">Ссылка на файл на сервере FTP с авторизацией</a>
+    </ul>
+
+    <form action="test@example.com">
+        <label>ФИО: <input type="text"><br></label>
+        <label>Телефон: <input type="tel"><br></label>
+        <label>E-mail: <input type="email"><br></label>
+        <label>Дата рождения: <input type="date"><br></label>
+
+        <label>Пол:</label>
+        <label><input type="radio" name="gender">М</label>
+        <label><input type="radio" name="gender">Ж<br></label>
+
+        <label>
+            Любимый язык программирования:
+            <select name="prog-lang" id="prog-lang">
+                <option value="">JavaScript</option>
+                <option value="">PHP</option>
+                <option value="">Python</option>
+                <option value="">Java</option>
+                <option value="">Pascal</option>
+                <option value="">С</option>
+                <option value="">С++</option>
+                <option value="">Haskel</option>
+                <option value="">Clojure</option>
+                <option value="">Prolog</option>
+                <option value="">Scala</option>
+            </select><br>
+        </label>
+
+        <label>
+            Биография:<br>
+            <textarea name="bio" id="bio"></textarea><br>
+        </label>
+
+        <label><input type="checkbox">С контрактом ознакомлен(-а)</label><br>
+        <input type="submit" value="Сохранить">
+    </form>
+</body>
+</html>
